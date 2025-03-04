@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/")
     public String home() {
-        return "Trang chủ - ai cũng vào được!";
+        return "Welcome to Spring Boot! - Example Security";
     }
 }
